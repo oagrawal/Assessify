@@ -14,7 +14,7 @@ from src.mcqgenerator.utils import read_file, get_table_data
 with open(r'C:\Users\03123\OM\NLP\mcq_gen\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
-st.title("MCQ generator with LangChain")
+st.title("Assessify")
 
 with st.form("user_inputs"):
     uploaded_file = st.file_uploader("Upload a PDF or .txt file")
